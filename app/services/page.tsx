@@ -67,7 +67,7 @@ export default function ServicesPage() {
               <br />
               <span className="text-rangers-red">build.</span>
             </h1>
-            <p className="text-rangers-bone/70 max-w-2xl text-lg leading-relaxed">
+            <p className="text-rangers-bone/85 max-w-2xl text-lg leading-relaxed">
               구단·코칭 스태프·미디어·팬 — 누구의 질문이든, 야구 데이터로 답할 수 있는
               네 가지 방식이 있습니다. 모든 프로젝트는 이 네 가지의 조합으로 진행됩니다.
             </p>
@@ -91,7 +91,7 @@ export default function ServicesPage() {
                 </p>
                 <ul className="space-y-3">
                   {s.bullets.map((b) => (
-                    <li key={b} className="flex items-start gap-3 text-rangers-bone/70">
+                    <li key={b} className="flex items-start gap-3 text-rangers-bone/85">
                       <span className="text-rangers-red mt-1.5">▸</span>
                       <span className="text-[15px]">{b}</span>
                     </li>

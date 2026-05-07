@@ -39,8 +39,8 @@ export default function Nav() {
         </Link>
 
         <div className="hidden md:flex items-center gap-8">
-          <Link href="/about" className="link-underline text-sm text-rangers-bone hover:text-white transition-colors">
-            About
+          <Link href="/story" className="link-underline text-sm text-rangers-bone hover:text-white transition-colors">
+            Story
           </Link>
           <Link href="/services" className="link-underline text-sm text-rangers-bone hover:text-white transition-colors">
             Services
@@ -57,8 +57,8 @@ export default function Nav() {
           >
             <span className="relative z-10 flex items-center gap-2">
               Launch Dashboard
-              <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                <path d="M2 10L10 2M10 2H4M10 2V8" stroke="currentColor" strokeWidth="1.5" />
+              <svg width="14" height="12" viewBox="0 0 14 12" fill="none">
+                <path d="M1 6h11M7 1l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </span>
             <div className="absolute inset-0 bg-rangers-blue-bright transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-out" />

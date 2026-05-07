@@ -16,7 +16,7 @@ export default function FeaturedProject() {
           <div className="col-span-12 lg:col-span-10">
             <div className="flex items-center gap-3 mb-4">
               <span className="font-mono text-xs px-2 py-1 bg-rangers-red text-white">
-                CASE STUDY
+                프로젝트
               </span>
               <span className="label-mono text-rangers-bone/50">2026 BOOTCAMP COHORT</span>
             </div>
@@ -98,13 +98,13 @@ export default function FeaturedProject() {
                   Launch Dashboard
                 </span>
                 <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
+                  width="18"
+                  height="14"
+                  viewBox="0 0 14 12"
                   fill="none"
                   className="relative z-10 group-hover:translate-x-1 transition-transform"
                 >
-                  <path d="M3 13L13 3M13 3H6M13 3V10" stroke="currentColor" strokeWidth="1.5" />
+                  <path d="M1 6h11M7 1l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
                 <div className="absolute inset-0 bg-rangers-blue-bright transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-out" />
               </Link>

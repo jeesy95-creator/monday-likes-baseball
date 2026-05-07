@@ -73,7 +73,7 @@ export default function TeamPage() {
               <br />
               <span className="text-rangers-red">네 사람.</span>
             </h1>
-            <p className="text-rangers-bone/75 max-w-2xl text-lg leading-relaxed">
+            <p className="text-rangers-bone/85 max-w-2xl text-lg leading-relaxed">
               네 사람, 네 가지 시선.
             </p>
           </div>
@@ -134,7 +134,7 @@ export default function TeamPage() {
                     {m.works.map((w) => (
                       <li
                         key={w}
-                        className="flex items-start gap-3 text-rangers-bone/80 text-[14px] leading-relaxed"
+                        className="flex items-start gap-3 text-rangers-bone/85 text-[14px] leading-relaxed"
                       >
                         <span
                           className={`mt-1.5 flex-shrink-0 ${

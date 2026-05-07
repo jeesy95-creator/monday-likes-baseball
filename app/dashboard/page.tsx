@@ -9,7 +9,7 @@ const dashboards = [
     badge: "REPORT",
     title: "Team & Player Report",
     titleKo: "팀·선수 리포트",
-    desc: "한 시즌의 결과를 팀과 선수 단위로 들여다보는 정적 리포트. 누가 어떤 영역에서 잘했고, 어디에 약점이 있었는지를 시각적으로 정리해 둔 화면입니다.",
+    desc: "한 시즌의 결과를 팀과 선수 단위로 들여다보는 정적 리포트. 누가 어떤 영역에서 잘했고, 어디에 약점이 있었는지를 시각적으로 정리해 둔 대시보드입니다.",
     bullets: [
       "팀 단위 시즌 종합 리포트",
       "타자·투수 개인 성적 카드",
@@ -24,11 +24,11 @@ const dashboards = [
     badge: "INTERACTIVE",
     title: "Scenario Simulation",
     titleKo: "시뮬레이션 + 챗봇",
-    desc: "변수를 직접 만져 가며 시나리오를 비교하고, 분석 결과에 대해 챗봇에게 자유롭게 질문할 수 있는 인터랙티브 화면입니다.",
+    desc: "변수를 직접 조정해 가며 시나리오를 비교하고, 분석 결과에 대해 챗봇에게 자유롭게 질문할 수 있는 인터랙티브 대시보드입니다.",
     bullets: [
       "시나리오 시뮬레이션",
-      "TEX 2025 분석 결과 챗봇 Q&A",
-      "직접 변수 조정해 결과 비교",
+      "TEX 2025 분석 챗봇 Q&A",
+      "변수를 조정해 결과 비교",
     ],
     href: process.env.NEXT_PUBLIC_STREAMLIT_URL,
     accent: "red",
@@ -46,13 +46,13 @@ export default function DashboardSelectPage() {
             <div className="font-mono text-xs text-rangers-red mb-2">§ DASHBOARDS</div>
           </div>
           <div className="col-span-12 lg:col-span-10">
-            <h1 className="display-xl text-5xl lg:text-[5.5rem] tracking-ultra mb-8">
-              두 개의 대시보드.
+            <h1 className="display-xl text-5xl lg:text-[5.5rem] tracking-ultra mb-8 leading-[1.15]">
+              두 개의 대시보드
               <br />
               <span className="text-rangers-red">같은 분석,</span>{" "}
-              <span className="text-rangers-bone/60 font-light">다른 사용법.</span>
+              <span className="text-rangers-bone/60 font-light">다른 사용법</span>
             </h1>
-            <p className="text-rangers-bone/75 max-w-2xl text-lg leading-relaxed">
+            <p className="text-rangers-bone/85 max-w-2xl text-lg leading-relaxed">
               Monday Likes Baseball은 두 개의 대시보드로 분석 결과를 제공합니다.
               한 쪽은 정적인 <span className="text-white whitespace-nowrap">팀·선수 리포트</span>,
               다른 한 쪽은 변수를 직접 조정할 수 있는{" "}
@@ -73,8 +73,8 @@ export default function DashboardSelectPage() {
                 rel="noopener noreferrer"
                 className="group relative bg-rangers-ink p-10 lg:p-16 hover:bg-rangers-graphite/60 transition-colors duration-500 flex flex-col"
               >
-                {/* Top row */}
-                <div className="flex items-start justify-between mb-12">
+                {/* Badge */}
+                <div className="mb-12">
                   <span
                     className={`font-mono text-[10px] tracking-[0.2em] px-2.5 py-1 ${
                       isRed
@@ -84,15 +84,6 @@ export default function DashboardSelectPage() {
                   >
                     {d.badge}
                   </span>
-                  <div
-                    className={`w-12 h-12 ${
-                      isRed ? "bg-rangers-red" : "bg-rangers-blue-bright"
-                    } opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center`}
-                  >
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <path d="M3 13L13 3M13 3H6M13 3V10" stroke="white" strokeWidth="1.5" />
-                    </svg>
-                  </div>
                 </div>
 
                 {/* Title */}
@@ -106,7 +97,7 @@ export default function DashboardSelectPage() {
                 </div>
 
                 {/* Description */}
-                <p className="text-rangers-bone/80 leading-relaxed text-[15px] mb-8">
+                <p className="text-rangers-bone/85 leading-relaxed text-[15px] mb-8">
                   {d.desc}
                 </p>
 
@@ -115,7 +106,7 @@ export default function DashboardSelectPage() {
                   {d.bullets.map((b) => (
                     <li
                       key={b}
-                      className="flex items-start gap-3 text-rangers-bone/70 text-[14px]"
+                      className="flex items-start gap-3 text-rangers-bone/85 text-[14px]"
                     >
                       <span
                         className={`mt-1.5 ${
@@ -130,17 +121,25 @@ export default function DashboardSelectPage() {
                 </ul>
 
                 {/* CTA */}
-                <div className="pt-6 border-t border-white/10 flex items-center justify-between">
-                  <span className="label-mono text-rangers-bone/60 group-hover:text-white transition-colors">
+                <div className="pt-6 border-t border-white/10 flex items-center justify-between gap-4">
+                  <span className="text-[15px] font-medium text-white">
                     {d.cta}
                   </span>
-                  <span
-                    className={`text-2xl ${
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    className={`flex-shrink-0 ${
                       isRed ? "text-rangers-red" : "text-rangers-blue-bright"
-                    } group-hover:translate-x-2 transition-transform duration-500`}
+                    } group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300`}
                   >
-                    →
-                  </span>
+                    <path
+                      d="M3 13L13 3M13 3H6M13 3V10"
+                      stroke="currentColor"
+                      strokeWidth="1.75"
+                    />
+                  </svg>
                 </div>
               </a>
             );

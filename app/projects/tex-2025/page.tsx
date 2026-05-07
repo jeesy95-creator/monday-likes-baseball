@@ -19,7 +19,7 @@ export default function TEX2025Page() {
         <div className="grid grid-cols-12 gap-8 mb-20">
           <div className="col-span-12 lg:col-span-8">
             <div className="flex items-center gap-3 mb-6">
-              <span className="font-mono text-xs px-2 py-1 bg-rangers-red text-white">CASE STUDY</span>
+              <span className="font-mono text-xs px-2 py-1 bg-rangers-red text-white">프로젝트</span>
               <span className="label-mono text-rangers-bone/50">PRESENTATION · MAY 2026</span>
             </div>
             <h1 className="display-xl text-5xl lg:text-8xl tracking-ultra mb-8">
@@ -29,41 +29,10 @@ export default function TEX2025Page() {
               <br />
               <span className="font-light text-rangers-bone/50">Why?</span>
             </h1>
-            <p className="text-rangers-bone/80 text-xl leading-relaxed max-w-2xl">
+            <p className="text-rangers-bone/85 text-xl leading-relaxed max-w-2xl">
               득점·실점만 놓고 보면 더 많은 승수를 거뒀어야 할 시즌. 9승이 어디로
               사라졌는지, 우리는 10시즌치 데이터를 다시 펼쳐 그 답을 찾아 봤습니다.
             </p>
-          </div>
-        </div>
-
-        {/* CTA */}
-        <div className="border border-white/10 bg-rangers-graphite/30 p-10 lg:p-16 mb-24 backdrop-blur-sm">
-          <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6">
-            <div>
-              <div className="label-mono text-rangers-red mb-3">인터랙티브 대시보드</div>
-              <h3 className="font-display text-3xl lg:text-4xl mb-2">
-                직접 만져 보세요.
-              </h3>
-              <p className="text-rangers-bone/60">
-                변수를 바꿔 가며 시나리오를 비교할 수 있는, 라이브 분석 화면입니다.
-              </p>
-            </div>
-            <a
-              href="/dashboard"
-              className="group flex-shrink-0 relative inline-flex items-center gap-3 px-8 py-4 bg-rangers-red text-white overflow-hidden"
-            >
-              <span className="relative z-10 font-medium tracking-wide">Launch Dashboard</span>
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 16 16"
-                fill="none"
-                className="relative z-10 group-hover:translate-x-1 transition-transform"
-              >
-                <path d="M3 13L13 3M13 3H6M13 3V10" stroke="currentColor" strokeWidth="1.5" />
-              </svg>
-              <div className="absolute inset-0 bg-rangers-blue-bright transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-out" />
-            </a>
           </div>
         </div>
 
@@ -105,7 +74,7 @@ export default function TEX2025Page() {
                 ].map((g) => (
                   <div key={g.tag} className="border border-white/10 p-6 bg-rangers-graphite/30">
                     <div className="label-mono text-rangers-red mb-4">{g.tag}</div>
-                    <ul className="space-y-2 text-sm text-rangers-bone/80 leading-relaxed">
+                    <ul className="space-y-2 text-sm text-rangers-bone/85 leading-relaxed">
                       {g.items.map((i) => (
                         <li key={i}>· {i}</li>
                       ))}
@@ -126,7 +95,7 @@ export default function TEX2025Page() {
               <div className="border-l-2 border-rangers-red pl-8 py-2">
                 <div className="label-mono text-rangers-red mb-3">발견 01</div>
                 <h3 className="font-display text-3xl mb-3">결국 마운드의 문제였다.</h3>
-                <p className="text-rangers-bone/80 leading-relaxed">
+                <p className="text-rangers-bone/85 leading-relaxed">
                   여러 변수를 비교한 결과, 평균자책점의 작은 변화가 다른 어떤 지표보다 시즌
                   승수에 큰 영향을 줬습니다. 다음 시즌 손봐야 할 우선순위가 분명히 드러났습니다.
                 </p>
@@ -135,7 +104,7 @@ export default function TEX2025Page() {
               <div className="border-l-2 border-rangers-blue-bright pl-8 py-2">
                 <div className="label-mono text-rangers-blue-bright mb-3">발견 02</div>
                 <h3 className="font-display text-3xl mb-3">5년에 걸쳐 쌓여온 약점.</h3>
-                <p className="text-rangers-bone/80 leading-relaxed">
+                <p className="text-rangers-bone/85 leading-relaxed">
                   올해 갑자기 생긴 문제가 아니었습니다. 지난 5시즌 동안 1점차 경기 승률이
                   꾸준히 리그 평균을 밑돌고 있었고, 그 흐름이 올해 결정적으로 드러났습니다.
                 </p>
@@ -144,7 +113,7 @@ export default function TEX2025Page() {
               <div className="border-l-2 border-white/30 pl-8 py-2">
                 <div className="label-mono text-rangers-bone/60 mb-3">발견 03</div>
                 <h3 className="font-display text-3xl mb-3">평균보다 분포가 만든 차이.</h3>
-                <p className="text-rangers-bone/80 leading-relaxed">
+                <p className="text-rangers-bone/85 leading-relaxed">
                   같은 평균 득점을 내더라도 점수가 어떻게 흩어졌는지에 따라 승수가 달라집니다.
                   큰 점수 차 승리는 많았지만 박빙 경기를 자주 놓친 패턴이 9승의 일부를 설명합니다.
                 </p>
@@ -152,23 +121,24 @@ export default function TEX2025Page() {
             </div>
           </section>
 
-          {/* Section 4 - Stack */}
+          {/* Section 4 - Deliverables */}
           <section className="grid grid-cols-12 gap-8">
             <div className="col-span-12 lg:col-span-3">
               <div className="font-mono text-xs text-rangers-red mb-2">/04</div>
               <h2 className="font-display text-4xl">결과물</h2>
+              <div className="label-mono text-rangers-bone/50 mt-3">산출물 4종</div>
             </div>
             <div className="col-span-12 lg:col-span-9">
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
                 {[
                   ["요약 리포트", "한 시즌의 진단을 한 장으로"],
-                  ["분석 대시보드", "변수를 직접 만져 보는 화면"],
+                  ["분석 대시보드", "변수를 조정해 시나리오 비교"],
                   ["시즌 비교", "10년치 흐름 위에서 위치 파악"],
                   ["다음 시즌 가이드", "어디를 손봐야 하는가"],
                 ].map(([k, v]) => (
-                  <div key={k} className="border border-white/10 p-5">
+                  <div key={k} className="bg-rangers-graphite/30 p-5">
                     <div className="label-mono text-rangers-red mb-2">{k}</div>
-                    <div className="text-sm text-rangers-bone/80 leading-relaxed">{v}</div>
+                    <div className="text-sm text-rangers-bone/85 leading-relaxed">{v}</div>
                   </div>
                 ))}
               </div>

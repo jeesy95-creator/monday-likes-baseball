@@ -26,7 +26,7 @@ export default function BrandSection() {
               해석합니다.
             </h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-rangers-bone/80 leading-relaxed">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-rangers-bone/85 leading-relaxed text-lg">
               <p>
                 Monday Likes Baseball은 데이터 분석 부트캠프 최종 프로젝트에서 출발한,
                 야구를 좋아하는 사람들의 작은 분석 그룹입니다. 한 경기 안에 흩어진 수백
@@ -41,10 +41,10 @@ export default function BrandSection() {
 
             <div className="mt-12">
               <Link
-                href="/about"
+                href="/story"
                 className="inline-flex items-center gap-3 group"
               >
-                <span className="label-mono text-rangers-red">Read more about us</span>
+                <span className="label-mono text-rangers-red">Read our story</span>
                 <span className="w-12 h-px bg-rangers-red group-hover:w-20 transition-all duration-500" />
               </Link>
             </div>
