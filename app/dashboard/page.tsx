@@ -50,7 +50,7 @@ export default function DashboardSelectPage() {
               <span className="text-rangers-red">같은 분석,</span>{" "}
               <span className="text-rangers-bone/60 font-light">다른 사용법</span>
             </h1>
-            <p className="text-rangers-bone/85 max-w-2xl text-lg leading-relaxed">
+            <p className="text-rangers-bone max-w-2xl text-lg leading-relaxed">
               Monday Likes Baseball은 두 개의 대시보드로 분석 결과를 제공합니다.
               한 쪽은 정적인 <span className="text-rangers-blue-deep font-medium whitespace-nowrap">팀·선수 리포트</span>,
               다른 한 쪽은 변수를 직접 조정할 수 있는{" "}
@@ -95,7 +95,7 @@ export default function DashboardSelectPage() {
                 </div>
 
                 {/* Description */}
-                <p className="text-rangers-bone/85 leading-relaxed text-[15px] mb-8">
+                <p className="text-rangers-bone leading-relaxed text-[15px] mb-8">
                   {d.desc}
                 </p>
 
@@ -104,7 +104,7 @@ export default function DashboardSelectPage() {
                   {d.bullets.map((b) => (
                     <li
                       key={b}
-                      className="flex items-start gap-3 text-rangers-bone/85 text-[14px]"
+                      className="flex items-start gap-3 text-rangers-bone text-[14px]"
                     >
                       <span
                         className={`mt-1.5 ${

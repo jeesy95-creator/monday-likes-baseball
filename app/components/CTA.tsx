@@ -19,7 +19,7 @@ export default function CTA() {
           <span className="font-display font-light">they whisper.</span>
         </h2>
 
-        <p className="mt-12 max-w-2xl mx-auto text-rangers-bone/85 text-lg">
+        <p className="mt-12 max-w-2xl mx-auto text-rangers-bone text-lg">
           더 깊이 있는 분석이 필요하다면, 또는 단순히 야구 이야기를 나누고 싶다면.
         </p>
 

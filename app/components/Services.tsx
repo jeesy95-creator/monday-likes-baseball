@@ -48,7 +48,7 @@ export default function Services() {
                 질문에 답합니다.
               </span>
             </h2>
-            <p className="mt-8 text-rangers-bone/85 max-w-2xl text-lg leading-relaxed">
+            <p className="mt-8 text-rangers-bone max-w-2xl text-lg leading-relaxed">
               팀의 시즌 진단부터, 다음 경기 예측, 선수의 동작 분석, 그리고 누구나
               볼 수 있는 대시보드까지. 야구를 둘러싼 질문에 데이터로 답합니다.
             </p>
@@ -91,7 +91,7 @@ export default function Services() {
               </div>
 
               {/* Description */}
-              <p className="mt-6 text-rangers-bone/85 leading-relaxed text-[15px]">
+              <p className="mt-6 text-rangers-bone leading-relaxed text-[15px]">
                 {s.desc}
               </p>
             </div>

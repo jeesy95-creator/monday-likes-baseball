@@ -56,7 +56,7 @@ export default function FeaturedProject() {
         {/* Project body */}
         <div className="grid grid-cols-12 gap-8">
           <div className="col-span-12 lg:col-span-7">
-            <div className="space-y-6 text-rangers-bone/85 leading-relaxed text-lg">
+            <div className="space-y-6 text-rangers-bone leading-relaxed text-lg">
               <p>
                 2025년 텍사스 레인저스는 득점·실점만 놓고 기대했던 승수보다{" "}
                 <span className="text-rangers-red font-medium">9승이나 모자랐습니다</span>.

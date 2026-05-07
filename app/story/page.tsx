@@ -16,7 +16,7 @@ export default function StoryPage() {
               <br />
               <span className="text-rangers-red">Monday?</span>
             </h1>
-            <p className="text-rangers-bone/85 text-xl lg:text-2xl leading-relaxed max-w-3xl font-display font-light">
+            <p className="text-rangers-bone text-xl lg:text-2xl leading-relaxed max-w-3xl font-display font-light">
               월요일은 보통 야구가 쉬는 날입니다. 그 비어 있는 하루,
               지난 주의 경기를 다시 펴 보고 다음 주의 경기를 예측해 보는 시간.
               그 시간이 우리를 만들었습니다.
@@ -32,7 +32,7 @@ export default function StoryPage() {
             </h2>
           </div>
           <div className="col-span-12 lg:col-span-8">
-            <div className="space-y-6 text-rangers-bone/85 leading-relaxed text-lg">
+            <div className="space-y-6 text-rangers-bone leading-relaxed text-lg">
               <p>
                 Monday Likes Baseball은 데이터 분석 부트캠프 최종 프로젝트에서 출발한
                 분석 그룹입니다. 야구를 좋아하는 사람들이 한자리에 모여, &lsquo;우리가

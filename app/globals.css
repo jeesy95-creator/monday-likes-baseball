@@ -24,6 +24,7 @@ body {
   background-color: #FAFAF7;
   color: #001A47;
   font-family: var(--font-sans);
+  font-weight: 600;
   overflow-x: hidden;
   word-break: keep-all;
   overflow-wrap: break-word;

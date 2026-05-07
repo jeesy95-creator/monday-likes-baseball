@@ -65,7 +65,7 @@ export default function Hero() {
           </div>
 
           <div className="col-span-12 lg:col-span-3 lg:pb-8">
-            <p className="text-rangers-bone/85 text-base lg:text-lg leading-relaxed">
+            <p className="text-rangers-bone text-base lg:text-lg leading-relaxed">
               한 시즌의 결과부터 한 동작의 디테일까지.
               <br />
               <span className="text-rangers-bone/50">
