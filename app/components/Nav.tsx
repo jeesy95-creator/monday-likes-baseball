@@ -16,7 +16,7 @@ export default function Nav() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? "bg-rangers-ink/85 backdrop-blur-xl border-b border-white/5"
+          ? "bg-rangers-ink/85 backdrop-blur-xl border-b border-rangers-blue-deep/10"
           : "bg-transparent"
       }`}
     >
@@ -39,16 +39,16 @@ export default function Nav() {
         </Link>
 
         <div className="hidden md:flex items-center gap-8">
-          <Link href="/story" className="link-underline text-sm text-rangers-bone hover:text-white transition-colors">
+          <Link href="/story" className="link-underline text-sm text-rangers-bone hover:text-rangers-blue-deep transition-colors">
             Story
           </Link>
-          <Link href="/services" className="link-underline text-sm text-rangers-bone hover:text-white transition-colors">
+          <Link href="/services" className="link-underline text-sm text-rangers-bone hover:text-rangers-blue-deep transition-colors">
             Services
           </Link>
-          <Link href="/team" className="link-underline text-sm text-rangers-bone hover:text-white transition-colors">
+          <Link href="/team" className="link-underline text-sm text-rangers-bone hover:text-rangers-blue-deep transition-colors">
             Team
           </Link>
-          <Link href="/projects/tex-2025" className="link-underline text-sm text-rangers-bone hover:text-white transition-colors">
+          <Link href="/projects/tex-2025" className="link-underline text-sm text-rangers-bone hover:text-rangers-blue-deep transition-colors">
             Projects
           </Link>
           <Link

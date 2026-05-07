@@ -10,17 +10,19 @@ const config: Config = {
       colors: {
         // Texas Rangers brand-inspired palette
         rangers: {
-          blue: "#003278",     // Rangers primary blue
+          // Brand colors (unchanged)
+          blue: "#003278",         // Rangers primary navy
           "blue-deep": "#001A47",
           "blue-bright": "#0F4FA8",
-          red: "#C0111F",      // Rangers red
+          red: "#C0111F",          // Rangers red
           "red-bright": "#E31837",
-          cream: "#F5F1E8",
-          bone: "#EAE3D2",
-          ink: "#13182A",
-          graphite: "#1A1F2E",
-          steel: "#2A3142",
-          chalk: "#FAFAF7",
+          // Light theme tokens (semantic — names kept for backward compat)
+          ink: "#FAFAF7",          // page bg (paper white)
+          graphite: "#F5F1E8",     // card bg (cream tinted)
+          steel: "#EAE3D2",        // accent / divider
+          chalk: "#001A47",        // primary heading (deep navy)
+          bone: "#001A47",         // body text (deep navy — same as chalk for max contrast)
+          cream: "#F5F1E8",        // legacy alias for graphite
         },
       },
       fontFamily: {

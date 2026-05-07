@@ -1,6 +1,6 @@
 export default function CTA() {
   return (
-    <section className="relative py-32 border-t border-white/5 overflow-hidden">
+    <section className="relative py-32 border-t border-rangers-blue-deep/10 overflow-hidden">
       <div className="absolute inset-0 stripes opacity-50" />
 
       <div className="relative max-w-[1600px] mx-auto px-6 lg:px-12 text-center">
@@ -10,7 +10,7 @@ export default function CTA() {
           <div className="w-8 h-px bg-rangers-red" />
         </div>
 
-        <h2 className="display-xl text-6xl lg:text-9xl text-white">
+        <h2 className="display-xl text-6xl lg:text-9xl text-rangers-blue-deep">
           Numbers
           <br />
           <span className="text-rangers-bone/40">don&apos;t lie.</span>
@@ -32,7 +32,7 @@ export default function CTA() {
           </a>
           <a
             href="/dashboard"
-            className="px-8 py-4 border border-white/30 hover:border-white hover:bg-white/5 transition-all"
+            className="px-8 py-4 border border-rangers-blue-deep/30 hover:border-white hover:bg-rangers-blue-deep/5 transition-all"
           >
             Launch Dashboard →
           </a>

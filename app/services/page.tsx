@@ -74,7 +74,7 @@ export default function ServicesPage() {
           </div>
         </div>
 
-        <div className="space-y-px bg-white/10">
+        <div className="space-y-px bg-rangers-blue-deep/8">
           {services.map((s) => (
             <div
               key={s.num}

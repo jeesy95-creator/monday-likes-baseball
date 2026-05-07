@@ -52,15 +52,15 @@ export default function DashboardSelectPage() {
             </h1>
             <p className="text-rangers-bone/85 max-w-2xl text-lg leading-relaxed">
               Monday Likes Baseball은 두 개의 대시보드로 분석 결과를 제공합니다.
-              한 쪽은 정적인 <span className="text-white whitespace-nowrap">팀·선수 리포트</span>,
+              한 쪽은 정적인 <span className="text-rangers-blue-deep font-medium whitespace-nowrap">팀·선수 리포트</span>,
               다른 한 쪽은 변수를 직접 조정할 수 있는{" "}
-              <span className="text-white whitespace-nowrap">시뮬레이션과 챗봇</span>입니다.
+              <span className="text-rangers-blue-deep font-medium whitespace-nowrap">시뮬레이션과 챗봇</span>입니다.
             </p>
           </div>
         </div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-px bg-white/5 border border-white/5">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-px bg-rangers-blue-deep/5 border border-rangers-blue-deep/10">
           {dashboards.map((d) => {
             const isRed = d.accent === "red";
             return (

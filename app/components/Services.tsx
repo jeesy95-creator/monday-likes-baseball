@@ -33,7 +33,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section className="relative py-32 border-t border-white/5 bg-gradient-to-b from-rangers-ink to-rangers-blue-deep/30">
+    <section className="relative py-32 border-t border-rangers-blue-deep/10 bg-gradient-to-b from-rangers-ink to-rangers-cream">
       <div className="max-w-[1600px] mx-auto px-6 lg:px-12">
         <div className="grid grid-cols-12 gap-8 mb-20">
           <div className="col-span-12 lg:col-span-2">
@@ -56,7 +56,7 @@ export default function Services() {
         </div>
 
         {/* Service grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-white/5 border border-white/5">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-rangers-blue-deep/5 border border-rangers-blue-deep/10">
           {services.map((s) => (
             <div
               key={s.num}

@@ -21,7 +21,7 @@ export default function Hero() {
       >
         <path
           d="M0,400 L0,300 Q400,200 800,250 Q1200,200 1600,300 L1600,400 Z"
-          fill="white"
+          fill="#001A47"
         />
         <path
           d="M780,250 L800,180 L820,250 Z"
@@ -40,7 +40,7 @@ export default function Hero() {
       {/* Logo top right */}
       <div className="absolute top-20 right-6 lg:right-12 z-10 hidden lg:block">
         <Image
-          src="/logo_dark.png"
+          src="/logo_light.png"
           alt="Monday Likes Baseball"
           width={500}
           height={580}
@@ -75,7 +75,7 @@ export default function Hero() {
             <div className="mt-6 flex items-center gap-4">
               <a
                 href="/dashboard"
-                className="group inline-flex items-center gap-2 text-sm border-b border-white pb-1 hover:border-rangers-red hover:text-rangers-red transition-colors"
+                className="group inline-flex items-center gap-2 text-sm border-b border-rangers-blue-deep pb-1 hover:border-rangers-red hover:text-rangers-red transition-colors"
               >
                 Launch Dashboard
                 <span className="group-hover:translate-x-1 transition-transform">→</span>
@@ -85,7 +85,7 @@ export default function Hero() {
         </div>
 
         {/* Bottom ticker */}
-        <div className="mt-16 pt-6 border-t border-white/10 flex flex-col md:flex-row justify-between gap-4 text-xs font-mono text-rangers-bone/40">
+        <div className="mt-16 pt-6 border-t border-rangers-blue-deep/15 flex flex-col md:flex-row justify-between gap-4 text-xs font-mono text-rangers-bone/40">
           <div>SCROLL ↓ TO EXPLORE</div>
           <div>BOOTCAMP COHORT · MAY 2026 · SEOUL, KR</div>
         </div>

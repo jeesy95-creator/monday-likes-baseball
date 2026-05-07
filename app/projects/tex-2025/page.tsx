@@ -8,7 +8,7 @@ export default function TEX2025Page() {
       <div className="max-w-[1600px] mx-auto px-6 lg:px-12">
         {/* Breadcrumb */}
         <div className="flex items-center gap-3 mb-12 text-xs font-mono">
-          <a href="/" className="text-rangers-bone/40 hover:text-white">HOME</a>
+          <a href="/" className="text-rangers-bone/40 hover:text-rangers-blue-deep">HOME</a>
           <span className="text-rangers-bone/20">/</span>
           <span className="text-rangers-bone/40">PROJECTS</span>
           <span className="text-rangers-bone/20">/</span>
@@ -72,7 +72,7 @@ export default function TEX2025Page() {
                   { tag: "기본 지표", items: ["득점·실점·평균자책점", "타격 종합 지표", "출루·장타력 흐름", "투수진의 안정성"] },
                   { tag: "검토 후 제외", items: ["로스터 평균 연령 구성", "베테랑·신인 비중", "이번 결과와 직접 연결이 약했던 변수들"] },
                 ].map((g) => (
-                  <div key={g.tag} className="border border-white/10 p-6 bg-rangers-graphite/30">
+                  <div key={g.tag} className="border border-rangers-blue-deep/15 p-6 bg-rangers-graphite/30">
                     <div className="label-mono text-rangers-red mb-4">{g.tag}</div>
                     <ul className="space-y-2 text-sm text-rangers-bone/85 leading-relaxed">
                       {g.items.map((i) => (
@@ -110,7 +110,7 @@ export default function TEX2025Page() {
                 </p>
               </div>
 
-              <div className="border-l-2 border-white/30 pl-8 py-2">
+              <div className="border-l-2 border-rangers-blue-deep/30 pl-8 py-2">
                 <div className="label-mono text-rangers-bone/60 mb-3">발견 03</div>
                 <h3 className="font-display text-3xl mb-3">평균보다 분포가 만든 차이.</h3>
                 <p className="text-rangers-bone/85 leading-relaxed">

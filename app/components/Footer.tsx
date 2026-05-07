@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="relative z-10 border-t border-white/5 bg-rangers-ink mt-32">
+    <footer className="relative z-10 border-t border-rangers-blue-deep/10 bg-rangers-ink mt-32">
       <div className="max-w-[1600px] mx-auto px-6 lg:px-12 py-16">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
           <div className="md:col-span-5">
@@ -19,10 +19,10 @@ export default function Footer() {
           <div className="md:col-span-2">
             <div className="label-mono text-rangers-red mb-4">Site</div>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/story" className="text-rangers-bone/70 hover:text-white">Story</Link></li>
-              <li><Link href="/services" className="text-rangers-bone/70 hover:text-white">Services</Link></li>
-              <li><Link href="/team" className="text-rangers-bone/70 hover:text-white">Team</Link></li>
-              <li><Link href="/projects/tex-2025" className="text-rangers-bone/70 hover:text-white">Projects</Link></li>
+              <li><Link href="/story" className="text-rangers-bone/70 hover:text-rangers-blue-deep">Story</Link></li>
+              <li><Link href="/services" className="text-rangers-bone/70 hover:text-rangers-blue-deep">Services</Link></li>
+              <li><Link href="/team" className="text-rangers-bone/70 hover:text-rangers-blue-deep">Team</Link></li>
+              <li><Link href="/projects/tex-2025" className="text-rangers-bone/70 hover:text-rangers-blue-deep">Projects</Link></li>
             </ul>
           </div>
 
@@ -40,14 +40,14 @@ export default function Footer() {
             <div className="label-mono text-rangers-red mb-4">Contact</div>
             <p className="text-sm text-rangers-bone/70 leading-relaxed">
               협업·문의<br />
-              <a href="mailto:lch092420@gmail.com" className="link-underline text-white">
+              <a href="mailto:lch092420@gmail.com" className="link-underline text-rangers-blue-deep">
                 lch092420@gmail.com
               </a>
             </p>
           </div>
         </div>
 
-        <div className="mt-16 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between gap-4 text-xs text-rangers-bone/40">
+        <div className="mt-16 pt-8 border-t border-rangers-blue-deep/10 flex flex-col md:flex-row justify-between gap-4 text-xs text-rangers-bone/40">
           <div className="font-mono">
             © {new Date().getFullYear()} MONDAY LIKES BASEBALL · ALL RIGHTS RESERVED
           </div>

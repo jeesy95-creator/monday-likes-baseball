@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function FeaturedProject() {
   return (
-    <section className="relative py-32 border-t border-white/5 overflow-hidden">
+    <section className="relative py-32 border-t border-rangers-blue-deep/10 overflow-hidden">
       {/* Decorative diagonal stripes */}
       <div className="absolute top-0 left-0 w-full h-2 bg-rangers-red" />
       <div className="absolute top-2 left-0 w-full h-px bg-rangers-blue-bright" />
@@ -32,7 +32,7 @@ export default function FeaturedProject() {
         </div>
 
         {/* Stats row */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-px bg-white/10 border border-white/10 mb-12">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-px bg-rangers-blue-deep/8 border border-rangers-blue-deep/15 mb-12">
           {[
             { label: "기대 대비 실제", value: "−9승", sub: "기댓값보다 부족한 승수" },
             { label: "분석 기간", value: "2015–2024", sub: "10시즌 누적 데이터" },
@@ -43,7 +43,7 @@ export default function FeaturedProject() {
               <div className="label-mono text-rangers-red text-[10px] mb-3">
                 {s.label}
               </div>
-              <div className="font-display text-3xl lg:text-4xl tabular text-white">
+              <div className="font-display text-3xl lg:text-4xl tabular text-rangers-blue-deep">
                 {s.value}
               </div>
               <div className="text-xs text-rangers-bone/50 mt-2 font-mono">
@@ -82,7 +82,7 @@ export default function FeaturedProject() {
               ].map((t) => (
                 <span
                   key={t}
-                  className="font-mono text-xs px-3 py-1.5 border border-white/15 text-rangers-bone/70"
+                  className="font-mono text-xs px-3 py-1.5 border border-rangers-blue-deep/20 text-rangers-bone/70"
                 >
                   {t}
                 </span>
@@ -111,7 +111,7 @@ export default function FeaturedProject() {
 
               <Link
                 href="/projects/tex-2025"
-                className="inline-flex items-center gap-2 px-8 py-4 border border-white/20 hover:border-white text-rangers-bone hover:text-white transition-colors"
+                className="inline-flex items-center gap-2 px-8 py-4 border border-rangers-blue-deep/25 hover:border-rangers-blue-deep text-rangers-bone hover:text-rangers-blue-deep transition-colors"
               >
                 Read Case Study
                 <span>→</span>
@@ -121,7 +121,7 @@ export default function FeaturedProject() {
 
           {/* Right - chart sketch */}
           <div className="col-span-12 lg:col-span-5">
-            <div className="border border-white/10 bg-rangers-graphite/40 p-6 lg:p-8 backdrop-blur-sm">
+            <div className="border border-rangers-blue-deep/15 bg-rangers-graphite/40 p-6 lg:p-8 backdrop-blur-sm">
               <div className="flex items-center justify-between mb-6">
                 <div className="label-mono text-rangers-red">FIG. 01</div>
                 <div className="label-mono text-rangers-bone/40">PYTH RESIDUAL · TEX</div>
@@ -130,8 +130,8 @@ export default function FeaturedProject() {
               {/* Simple ASCII-style data viz */}
               <svg viewBox="0 0 400 240" className="w-full">
                 {/* Axis */}
-                <line x1="40" y1="200" x2="380" y2="200" stroke="rgba(255,255,255,0.2)" />
-                <line x1="40" y1="20" x2="40" y2="200" stroke="rgba(255,255,255,0.2)" />
+                <line x1="40" y1="200" x2="380" y2="200" stroke="rgba(0,26,71,0.25)" />
+                <line x1="40" y1="20" x2="40" y2="200" stroke="rgba(0,26,71,0.25)" />
                 {/* Zero line */}
                 <line x1="40" y1="110" x2="380" y2="110" stroke="rgba(192,17,31,0.4)" strokeDasharray="2 4" />
 
@@ -155,12 +155,12 @@ export default function FeaturedProject() {
                       y={b.h < 0 ? 110 : 110 - Math.abs(b.h) * 6}
                       width="16"
                       height={Math.abs(b.h) * 6}
-                      fill={b.highlight ? "#E31837" : b.h < 0 ? "rgba(255,255,255,0.4)" : "#0F4FA8"}
+                      fill={b.highlight ? "#E31837" : b.h < 0 ? "rgba(0,26,71,0.4)" : "#0F4FA8"}
                     />
                     <text
                       x={b.x}
                       y="220"
-                      fill="rgba(255,255,255,0.4)"
+                      fill="rgba(0,26,71,0.4)"
                       fontSize="9"
                       fontFamily="monospace"
                       textAnchor="middle"
@@ -171,13 +171,13 @@ export default function FeaturedProject() {
                 ))}
 
                 {/* Labels */}
-                <text x="48" y="20" fill="rgba(255,255,255,0.4)" fontSize="9" fontFamily="monospace">
+                <text x="48" y="20" fill="rgba(0,26,71,0.4)" fontSize="9" fontFamily="monospace">
                   +15
                 </text>
                 <text x="48" y="115" fill="rgba(192,17,31,0.6)" fontSize="9" fontFamily="monospace">
                   0
                 </text>
-                <text x="48" y="200" fill="rgba(255,255,255,0.4)" fontSize="9" fontFamily="monospace">
+                <text x="48" y="200" fill="rgba(0,26,71,0.4)" fontSize="9" fontFamily="monospace">
                   −15
                 </text>
 
@@ -189,7 +189,7 @@ export default function FeaturedProject() {
                 </text>
               </svg>
 
-              <div className="mt-4 pt-4 border-t border-white/10 text-xs font-mono text-rangers-bone/50">
+              <div className="mt-4 pt-4 border-t border-rangers-blue-deep/15 text-xs font-mono text-rangers-bone/50">
                 ACTUAL WINS − PYTH EXPECTED · TEX RANGERS
               </div>
             </div>

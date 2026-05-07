@@ -21,8 +21,8 @@ html {
 }
 
 body {
-  background-color: #13182A;
-  color: #FAFAF7;
+  background-color: #FAFAF7;
+  color: #001A47;
   font-family: var(--font-sans);
   overflow-x: hidden;
   word-break: keep-all;
@@ -45,7 +45,7 @@ body {
 
 /* Selection */
 ::selection {
-  background: #E31837;
+  background: #001A47;
   color: #FAFAF7;
 }
 
@@ -55,10 +55,10 @@ body {
   height: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #13182A;
+  background: #F5F1E8;
 }
 ::-webkit-scrollbar-thumb {
-  background: #2A3142;
+  background: #EAE3D2;
   border-radius: 0;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -102,8 +102,8 @@ body {
 /* Grid background */
 .grid-bg {
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    linear-gradient(rgba(0, 26, 71, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 26, 71, 0.04) 1px, transparent 1px);
   background-size: 60px 60px;
 }
 

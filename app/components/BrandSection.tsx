@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function BrandSection() {
   return (
-    <section className="relative py-32 border-t border-white/5">
+    <section className="relative py-32 border-t border-rangers-blue-deep/10">
       <div className="max-w-[1600px] mx-auto px-6 lg:px-12">
         <div className="grid grid-cols-12 gap-8">
           {/* Section number */}
@@ -52,7 +52,7 @@ export default function BrandSection() {
 
           {/* Right column - data card */}
           <div className="col-span-12 lg:col-span-3">
-            <div className="border border-white/10 p-6 bg-rangers-graphite/40 backdrop-blur-sm">
+            <div className="border border-rangers-blue-deep/15 p-6 bg-rangers-graphite/40 backdrop-blur-sm">
               <div className="label-mono text-rangers-red mb-4">우리가 하는 일</div>
               <ul className="space-y-4">
                 {[
@@ -60,7 +60,7 @@ export default function BrandSection() {
                   { num: "02", label: "경기 예측", sub: "다음 한 경기를 미리 그려보는 일" },
                   { num: "03", label: "동작 분석", sub: "한 동작 안의 위험 신호를 읽는 일" },
                 ].map((item) => (
-                  <li key={item.num} className="flex items-start gap-3 pb-3 border-b border-white/5 last:border-0">
+                  <li key={item.num} className="flex items-start gap-3 pb-3 border-b border-rangers-blue-deep/10 last:border-0">
                     <span className="font-mono text-xs text-rangers-bone/40 mt-0.5 tabular">
                       {item.num}
                     </span>

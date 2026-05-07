@@ -80,7 +80,7 @@ export default function TeamPage() {
         </div>
 
         {/* Member grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-px bg-white/5 border border-white/5">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-px bg-rangers-blue-deep/5 border border-rangers-blue-deep/10">
           {members.map((m) => {
             const isRed = m.accent === "red";
             return (
@@ -126,7 +126,7 @@ export default function TeamPage() {
                 </p>
 
                 {/* Works */}
-                <div className="mt-auto pt-6 border-t border-white/10">
+                <div className="mt-auto pt-6 border-t border-rangers-blue-deep/15">
                   <div className="label-mono text-rangers-bone/50 mb-4">
                     Selected Works
                   </div>
