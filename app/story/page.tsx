@@ -16,7 +16,7 @@ export default function StoryPage() {
               <br />
               <span className="text-rangers-red">Monday?</span>
             </h1>
-            <p className="text-rangers-bone text-xl lg:text-2xl leading-relaxed max-w-3xl font-display font-light">
+            <p className="text-[#1B2435] text-xl lg:text-2xl leading-relaxed max-w-3xl font-display font-medium">
               월요일은 보통 야구가 쉬는 날입니다. 그 비어 있는 하루,
               지난 주의 경기를 다시 펴 보고 다음 주의 경기를 예측해 보는 시간.
               그 시간이 우리를 만들었습니다.

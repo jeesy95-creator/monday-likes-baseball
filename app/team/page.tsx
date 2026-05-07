@@ -38,9 +38,9 @@ const members = [
     role: "Designer · Data Analyst",
     bio: "분석 결과를 가장 직관적인 화면으로 옮기는 데이터 애널리스트입니다. 데이터 분석부터 시각화 설계까지, 인사이트가 사용자에게 닿는 마지막 한 단계를 책임집니다.",
     works: [
-      "세이버메트릭스 기반 야구 데이터 분석",
-      "대시보드 UI/UX 기획 및 시각화 설계",
-      "분석 리포트 작성 · 인사이트 커뮤니케이션",
+      "H&M 고객·상품 구매 패턴 분석 · 데이터 기반 판매량 증진 방안 도출 (2019)",
+      "다이캐스팅 공정 불량 탐지 모델 개발 · 제조 품질 개선 방향 제시",
+      "Starbucks 오퍼 효과 분석 · 반응 데이터 기반 프로모션·마케팅 전략 제안",
     ],
   },
   {
@@ -128,13 +128,13 @@ export default function TeamPage() {
                 {/* Works */}
                 <div className="mt-auto pt-6 border-t border-rangers-blue-deep/15">
                   <div className="label-mono text-rangers-bone/50 mb-4">
-                    Selected Works
+                    Experience
                   </div>
-                  <ul className="space-y-2.5">
+                  <ul className="space-y-1.5">
                     {m.works.map((w) => (
                       <li
                         key={w}
-                        className="flex items-start gap-3 text-rangers-bone text-[14px] leading-relaxed"
+                        className="flex items-start gap-3 text-rangers-bone text-[16px] leading-snug"
                       >
                         <span
                           className={`mt-1.5 flex-shrink-0 ${
