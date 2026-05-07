@@ -17,7 +17,6 @@ const dashboards = [
     ],
     href: process.env.NEXT_PUBLIC_TABLEAU_URL,
     accent: "blue",
-    cta: "View Report",
   },
   {
     key: "streamlit",
@@ -32,7 +31,6 @@ const dashboards = [
     ],
     href: process.env.NEXT_PUBLIC_STREAMLIT_URL,
     accent: "red",
-    cta: "View Simulation",
   },
 ];
 
@@ -102,7 +100,7 @@ export default function DashboardSelectPage() {
                 </p>
 
                 {/* Bullets */}
-                <ul className="space-y-3 mb-12 flex-grow">
+                <ul className="space-y-3">
                   {d.bullets.map((b) => (
                     <li
                       key={b}
@@ -120,27 +118,6 @@ export default function DashboardSelectPage() {
                   ))}
                 </ul>
 
-                {/* CTA */}
-                <div className="pt-6 border-t border-white/10 flex items-center justify-between gap-4">
-                  <span className="text-[15px] font-medium text-white">
-                    {d.cta}
-                  </span>
-                  <svg
-                    width="20"
-                    height="20"
-                    viewBox="0 0 16 16"
-                    fill="none"
-                    className={`flex-shrink-0 ${
-                      isRed ? "text-rangers-red" : "text-rangers-blue-bright"
-                    } group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300`}
-                  >
-                    <path
-                      d="M3 13L13 3M13 3H6M13 3V10"
-                      stroke="currentColor"
-                      strokeWidth="1.75"
-                    />
-                  </svg>
-                </div>
               </a>
             );
           })}
