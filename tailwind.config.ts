@@ -17,7 +17,7 @@ const config: Config = {
           "red-bright": "#E31837",
           cream: "#F5F1E8",
           bone: "#EAE3D2",
-          ink: "#0A0E1A",
+          ink: "#13182A",
           graphite: "#1A1F2E",
           steel: "#2A3142",
           chalk: "#FAFAF7",
