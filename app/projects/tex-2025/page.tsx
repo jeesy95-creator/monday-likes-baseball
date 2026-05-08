@@ -6,22 +6,12 @@ export default function TEX2025Page() {
   return (
     <div className="pt-32 pb-32">
       <div className="max-w-[1600px] mx-auto px-6 lg:px-12">
-        {/* Breadcrumb */}
-        <div className="flex items-center gap-3 mb-12 text-xs font-mono">
-          <a href="/" className="text-rangers-bone/40 hover:text-rangers-blue-deep">HOME</a>
-          <span className="text-rangers-bone/20">/</span>
-          <span className="text-rangers-bone/40">PROJECTS</span>
-          <span className="text-rangers-bone/20">/</span>
-          <span className="text-rangers-red">TEX 2025</span>
-        </div>
-
         {/* Hero */}
         <div className="grid grid-cols-12 gap-8 mb-20">
-          <div className="col-span-12 lg:col-span-8">
-            <div className="flex items-center gap-3 mb-6">
-              <span className="font-mono text-xs px-2 py-1 bg-rangers-red text-white">프로젝트</span>
-              <span className="label-mono text-rangers-bone/50">PRESENTATION · MAY 2026</span>
-            </div>
+          <div className="col-span-12 lg:col-span-2">
+            <div className="font-mono text-xs text-rangers-red mb-2">§ PROJECT</div>
+          </div>
+          <div className="col-span-12 lg:col-span-10">
             <h1 className="display-xl text-5xl lg:text-8xl tracking-ultra mb-8">
               Texas Rangers
               <br />
@@ -42,7 +32,7 @@ export default function TEX2025Page() {
           <section className="grid grid-cols-12 gap-8">
             <div className="col-span-12 lg:col-span-3">
               <div className="font-mono text-xs text-rangers-red mb-2">/01</div>
-              <h2 className="font-display text-4xl">출발점</h2>
+              <h2 className="font-display text-5xl">출발점</h2>
             </div>
             <div className="col-span-12 lg:col-span-9 space-y-6 text-rangers-bone text-lg leading-relaxed">
               <p>
@@ -62,7 +52,7 @@ export default function TEX2025Page() {
           <section className="grid grid-cols-12 gap-8">
             <div className="col-span-12 lg:col-span-3">
               <div className="font-mono text-xs text-rangers-red mb-2">/02</div>
-              <h2 className="font-display text-4xl">우리가 본 것</h2>
+              <h2 className="font-display text-5xl">우리가 본 것</h2>
             </div>
             <div className="col-span-12 lg:col-span-9">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -73,7 +63,7 @@ export default function TEX2025Page() {
                   { tag: "검토 후 제외", items: ["로스터 평균 연령 구성", "베테랑·신인 비중", "이번 결과와 직접 연결이 약했던 변수들"] },
                 ].map((g) => (
                   <div key={g.tag} className="border border-rangers-blue-deep/15 p-6 bg-rangers-graphite/30">
-                    <div className="label-mono text-rangers-red mb-4">{g.tag}</div>
+                    <div className="text-lg font-bold tracking-tight text-rangers-red mb-4">{g.tag}</div>
                     <ul className="space-y-2 text-sm text-rangers-bone leading-relaxed">
                       {g.items.map((i) => (
                         <li key={i}>· {i}</li>
@@ -89,7 +79,7 @@ export default function TEX2025Page() {
           <section className="grid grid-cols-12 gap-8">
             <div className="col-span-12 lg:col-span-3">
               <div className="font-mono text-xs text-rangers-red mb-2">/03</div>
-              <h2 className="font-display text-4xl">발견</h2>
+              <h2 className="font-display text-5xl">발견</h2>
             </div>
             <div className="col-span-12 lg:col-span-9 space-y-8">
               <div className="border-l-2 border-rangers-red pl-8 py-2">
@@ -125,7 +115,7 @@ export default function TEX2025Page() {
           <section className="grid grid-cols-12 gap-8">
             <div className="col-span-12 lg:col-span-3">
               <div className="font-mono text-xs text-rangers-red mb-2">/04</div>
-              <h2 className="font-display text-4xl">결과물</h2>
+              <h2 className="font-display text-5xl">결과물</h2>
               <div className="label-mono text-rangers-bone/50 mt-3">산출물 4종</div>
             </div>
             <div className="col-span-12 lg:col-span-9">
@@ -137,8 +127,8 @@ export default function TEX2025Page() {
                   ["다음 시즌 가이드", "어디를 손봐야 하는가"],
                 ].map(([k, v]) => (
                   <div key={k} className="bg-rangers-graphite/30 p-5">
-                    <div className="label-mono text-rangers-red mb-2">{k}</div>
-                    <div className="text-sm text-rangers-bone leading-relaxed">{v}</div>
+                    <div className="text-base font-bold tracking-tight text-rangers-red mb-2">{k}</div>
+                    <div className="text-[15px] text-rangers-bone leading-relaxed">{v}</div>
                   </div>
                 ))}
               </div>

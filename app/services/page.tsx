@@ -91,9 +91,9 @@ export default function ServicesPage() {
                 </p>
                 <ul className="space-y-3">
                   {s.bullets.map((b) => (
-                    <li key={b} className="flex items-start gap-3 text-rangers-bone">
-                      <span className="text-rangers-red mt-1.5">▸</span>
-                      <span className="text-[15px]">{b}</span>
+                    <li key={b} className="flex items-start gap-3 text-rangers-bone text-[15px] leading-relaxed">
+                      <span className="text-rangers-red flex-shrink-0">▸</span>
+                      <span>{b}</span>
                     </li>
                   ))}
                 </ul>

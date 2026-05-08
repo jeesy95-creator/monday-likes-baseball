@@ -39,18 +39,20 @@ export default function Nav() {
         </Link>
 
         <div className="hidden md:flex items-center gap-8">
-          <Link href="/story" className="link-underline text-sm text-rangers-bone hover:text-rangers-blue-deep transition-colors">
-            Story
-          </Link>
-          <Link href="/services" className="link-underline text-sm text-rangers-bone hover:text-rangers-blue-deep transition-colors">
-            Services
-          </Link>
-          <Link href="/team" className="link-underline text-sm text-rangers-bone hover:text-rangers-blue-deep transition-colors">
-            Team
-          </Link>
-          <Link href="/projects/tex-2025" className="link-underline text-sm text-rangers-bone hover:text-rangers-blue-deep transition-colors">
-            Projects
-          </Link>
+          {[
+            { href: "/story", label: "Story" },
+            { href: "/services", label: "Services" },
+            { href: "/team", label: "Team" },
+            { href: "/projects/tex-2025", label: "Projects" },
+          ].map(({ href, label }) => (
+            <Link
+              key={href}
+              href={href}
+              className="link-underline text-[15px] font-semibold text-rangers-bone hover:text-rangers-blue-deep transition-colors"
+            >
+              {label}
+            </Link>
+          ))}
           <Link
             href="/dashboard"
             className="group relative px-5 py-2 bg-rangers-red text-white text-sm font-medium overflow-hidden"

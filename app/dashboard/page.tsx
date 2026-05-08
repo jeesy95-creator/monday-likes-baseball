@@ -104,10 +104,10 @@ export default function DashboardSelectPage() {
                   {d.bullets.map((b) => (
                     <li
                       key={b}
-                      className="flex items-start gap-3 text-rangers-bone text-[14px]"
+                      className="flex items-start gap-3 text-rangers-bone text-[14px] leading-relaxed"
                     >
                       <span
-                        className={`mt-1.5 ${
+                        className={`flex-shrink-0 ${
                           isRed ? "text-rangers-red" : "text-rangers-blue-bright"
                         }`}
                       >

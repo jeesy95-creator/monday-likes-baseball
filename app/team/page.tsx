@@ -137,7 +137,7 @@ export default function TeamPage() {
                         className="flex items-start gap-3 text-rangers-bone text-[16px] leading-snug"
                       >
                         <span
-                          className={`mt-1.5 flex-shrink-0 ${
+                          className={`flex-shrink-0 ${
                             isRed ? "text-rangers-red" : "text-rangers-blue-bright"
                           }`}
                         >
