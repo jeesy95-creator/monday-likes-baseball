@@ -13,7 +13,7 @@ const dashboards = [
     bullets: [
       "팀 단위 시즌 종합 리포트",
       "타자·투수 개인 성적 카드",
-      "10년치 흐름 위에서의 위치 파악",
+      "25시즌에서 위치 파악",
     ],
     href: process.env.NEXT_PUBLIC_TABLEAU_URL,
     accent: "blue",
