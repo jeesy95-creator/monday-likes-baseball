@@ -32,7 +32,6 @@ export default function TEX2025Page() {
           {/* Section 1 */}
           <section className="grid grid-cols-12 gap-8">
             <div className="col-span-12 lg:col-span-3">
-              <div className="font-mono text-xs text-rangers-red mb-2">/01</div>
               <h2 className="font-display text-5xl">출발점</h2>
             </div>
             <div className="col-span-12 lg:col-span-9 space-y-6 text-rangers-bone text-lg leading-relaxed">
@@ -52,7 +51,6 @@ export default function TEX2025Page() {
           {/* Section 2 - Features */}
           <section className="grid grid-cols-12 gap-8">
             <div className="col-span-12 lg:col-span-3">
-              <div className="font-mono text-xs text-rangers-red mb-2">/02</div>
               <h2 className="font-display text-5xl">우리가 본 것</h2>
             </div>
             <div className="col-span-12 lg:col-span-9">
@@ -79,7 +77,6 @@ export default function TEX2025Page() {
           {/* Section 3 - Findings */}
           <section className="grid grid-cols-12 gap-8">
             <div className="col-span-12 lg:col-span-3">
-              <div className="font-mono text-xs text-rangers-red mb-2">/03</div>
               <h2 className="font-display text-5xl">발견</h2>
             </div>
             <div className="col-span-12 lg:col-span-9 space-y-8">
@@ -115,7 +112,6 @@ export default function TEX2025Page() {
           {/* Section 4 - Deliverables */}
           <section className="grid grid-cols-12 gap-8">
             <div className="col-span-12 lg:col-span-3">
-              <div className="font-mono text-xs text-rangers-red mb-2">/04</div>
               <h2 className="font-display text-5xl">결과물</h2>
               <div className="label-mono text-rangers-bone/50 mt-3">산출물 4종</div>
             </div>
