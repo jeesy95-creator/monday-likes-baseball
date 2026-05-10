@@ -51,10 +51,14 @@ export default function DashboardSelectPage() {
               <span className="text-rangers-bone/60 font-light">다른 사용법</span>
             </h1>
             <p className="text-rangers-bone max-w-2xl text-lg leading-relaxed">
-              Monday Likes Baseball은 두 개의 대시보드로 분석 결과를 제공합니다.
-              한 쪽은 정적인 <span className="text-rangers-blue-deep font-medium whitespace-nowrap">팀·선수 리포트</span>,
-              다른 한 쪽은 변수를 직접 조정할 수 있는{" "}
-              <span className="text-rangers-blue-deep font-medium whitespace-nowrap">시뮬레이션과 챗봇</span>입니다.
+              같은 분석을 두 가지 시선으로 풀어내기 위해,{" "}
+              <span className="text-rangers-blue-deep font-bold">Tableau</span>와{" "}
+              <span className="text-rangers-blue-deep font-bold">Streamlit</span>{" "}
+              두 도구를 함께 씁니다. Tableau는 한 시즌의 결과를 정제된{" "}
+              <span className="text-rangers-blue-deep font-medium whitespace-nowrap">팀·선수 리포트</span>로
+              한눈에 보여주는 데, Streamlit은 변수를 조정해 가며{" "}
+              <span className="text-rangers-blue-deep font-medium whitespace-nowrap">시나리오를 시뮬레이션</span>하고
+              챗봇과 대화하는 데 — 각자의 강점에 맞게 역할을 나눴습니다.
             </p>
           </div>
         </div>
