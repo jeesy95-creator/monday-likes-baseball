@@ -56,9 +56,9 @@ export default function DashboardSelectPage() {
               <span className="text-rangers-blue-deep font-bold">Streamlit</span>{" "}
               두 도구를 함께 씁니다. Tableau는 한 시즌의 결과를 정제된{" "}
               <span className="text-rangers-blue-deep font-medium whitespace-nowrap">팀·선수 리포트</span>로
-              한눈에 보여주는 데, Streamlit은 변수를 조정해 가며{" "}
+              한눈에 보여주는 정적 대시보드 이고, Streamlit은 변수를 조정해 가며{" "}
               <span className="text-rangers-blue-deep font-medium whitespace-nowrap">시나리오를 시뮬레이션</span>하고
-              챗봇과 대화하는 데 — 각자의 강점에 맞게 역할을 나눴습니다.
+              챗봇과 대화하는 인터렉티브 대시보드 입니다. 각자의 강점에 맞게 역할을 나눴습니다.
             </p>
           </div>
         </div>
