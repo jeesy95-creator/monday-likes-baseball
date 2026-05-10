@@ -63,22 +63,13 @@ export default function Services() {
               className="group relative bg-rangers-ink p-8 lg:p-10 hover:bg-rangers-graphite transition-colors duration-500"
             >
               {/* Number */}
-              <div className="flex items-start justify-between mb-8">
+              <div className="mb-8">
                 <div
                   className={`font-mono text-xs ${
                     s.accent === "red" ? "text-rangers-red" : "text-rangers-blue-bright"
                   }`}
                 >
                   /{s.num}
-                </div>
-                <div
-                  className={`w-12 h-12 ${
-                    s.accent === "red" ? "bg-rangers-red" : "bg-rangers-blue-bright"
-                  } opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center`}
-                >
-                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                    <path d="M2 12L12 2M12 2H5M12 2V9" stroke="white" strokeWidth="1.5" />
-                  </svg>
                 </div>
               </div>
 

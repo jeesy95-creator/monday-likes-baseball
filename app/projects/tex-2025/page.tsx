@@ -19,9 +19,10 @@ export default function TEX2025Page() {
               <br />
               <span className="font-light text-rangers-bone/50">Why?</span>
             </h1>
-            <p className="text-rangers-bone text-xl leading-relaxed max-w-2xl">
-              득점·실점만 놓고 보면 더 많은 승수를 거뒀어야 할 시즌. 9승이 어디로
-              사라졌는지, 우리는 10시즌치 데이터를 다시 펼쳐 그 답을 찾아 봤습니다.
+            <p className="text-rangers-bone text-xl leading-relaxed">
+              득점·실점만 놓고 보면 더 많은 승수를 거뒀어야 할 시즌.
+              <br />
+              9승이 어디로 사라졌는지, 우리는 10시즌치 데이터를 다시 펼쳐 그 답을 찾아 봤습니다.
             </p>
           </div>
         </div>
@@ -84,7 +85,7 @@ export default function TEX2025Page() {
             <div className="col-span-12 lg:col-span-9 space-y-8">
               <div className="border-l-2 border-rangers-red pl-8 py-2">
                 <div className="label-mono text-rangers-red mb-3">발견 01</div>
-                <h3 className="font-display text-3xl mb-3">결국 마운드의 문제였다.</h3>
+                <h3 className="font-display text-3xl mb-3">결국 마운드의 문제였다</h3>
                 <p className="text-rangers-bone leading-relaxed">
                   여러 변수를 비교한 결과, 평균자책점의 작은 변화가 다른 어떤 지표보다 시즌
                   승수에 큰 영향을 줬습니다. 다음 시즌 손봐야 할 우선순위가 분명히 드러났습니다.
@@ -93,7 +94,7 @@ export default function TEX2025Page() {
 
               <div className="border-l-2 border-rangers-blue-bright pl-8 py-2">
                 <div className="label-mono text-rangers-blue-bright mb-3">발견 02</div>
-                <h3 className="font-display text-3xl mb-3">5년에 걸쳐 쌓여온 약점.</h3>
+                <h3 className="font-display text-3xl mb-3">5년에 걸쳐 쌓여온 약점</h3>
                 <p className="text-rangers-bone leading-relaxed">
                   올해 갑자기 생긴 문제가 아니었습니다. 지난 5시즌 동안 1점차 경기 승률이
                   꾸준히 리그 평균을 밑돌고 있었고, 그 흐름이 올해 결정적으로 드러났습니다.
@@ -102,7 +103,7 @@ export default function TEX2025Page() {
 
               <div className="border-l-2 border-rangers-blue-deep/30 pl-8 py-2">
                 <div className="label-mono text-rangers-bone/60 mb-3">발견 03</div>
-                <h3 className="font-display text-3xl mb-3">평균보다 분포가 만든 차이.</h3>
+                <h3 className="font-display text-3xl mb-3">평균보다 분포가 만든 차이</h3>
                 <p className="text-rangers-bone leading-relaxed">
                   같은 평균 득점을 내더라도 점수가 어떻게 흩어졌는지에 따라 승수가 달라집니다.
                   큰 점수 차 승리는 많았지만 박빙 경기를 자주 놓친 패턴이 9승의 일부를 설명합니다.
