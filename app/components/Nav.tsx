@@ -40,7 +40,6 @@ export default function Nav() {
 
         <div className="hidden md:flex items-center gap-8">
           {[
-            { href: "/story", label: "Story" },
             { href: "/services", label: "Services" },
             { href: "/team", label: "Team" },
             { href: "/projects/tex-2025", label: "Projects" },

@@ -19,7 +19,6 @@ export default function Footer() {
           <div className="md:col-span-2">
             <div className="label-mono text-rangers-red mb-4">Site</div>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/story" className="text-rangers-bone/70 hover:text-rangers-blue-deep">Story</Link></li>
               <li><Link href="/services" className="text-rangers-bone/70 hover:text-rangers-blue-deep">Services</Link></li>
               <li><Link href="/team" className="text-rangers-bone/70 hover:text-rangers-blue-deep">Team</Link></li>
               <li><Link href="/projects/tex-2025" className="text-rangers-bone/70 hover:text-rangers-blue-deep">Projects</Link></li>

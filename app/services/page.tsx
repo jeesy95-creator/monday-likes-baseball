@@ -4,7 +4,6 @@ export const metadata = {
 
 const services = [
   {
-    num: "01",
     title: "Team & Season Analysis",
     titleKo: "팀·시즌 분석",
     desc: "한 시즌의 결과를 운과 실력으로 분리해 봅니다. 팀이 기대보다 부진했다면 그 원인이 어디에 있는지, 다음 시즌 어디를 손봐야 하는지 — 막연한 인상이 아니라 구체적인 수치로 답을 드립니다.",
@@ -16,7 +15,6 @@ const services = [
     ],
   },
   {
-    num: "02",
     title: "Game Forecasting",
     titleKo: "경기 예측",
     desc: "다음 한 경기, 한 시리즈, 한 시즌의 결과를 미리 그려 봅니다. 단순한 승패 예측이 아니라, 어떤 시나리오가 얼마나 자주 일어날지 — 가능한 결과의 분포 전체를 보여드립니다.",
@@ -28,7 +26,6 @@ const services = [
     ],
   },
   {
-    num: "03",
     title: "Motion Analytics",
     titleKo: "투구·타격 동작 분석",
     desc: "한 대의 카메라 영상만으로 선수의 동작을 분해합니다. 부상 위험과 직결되는 관절 움직임을 정량화하고, 좋은 동작과 그렇지 않은 동작의 차이를 시각적으로 보여드립니다.",
@@ -40,7 +37,6 @@ const services = [
     ],
   },
   {
-    num: "04",
     title: "Insight Dashboard",
     titleKo: "맞춤 대시보드",
     desc: "분석은 누군가가 보고 결정을 내려야 비로소 가치가 됩니다. 코칭 스태프, 프런트, 그리고 팬까지 — 보는 사람의 눈높이에 맞춘 인터랙티브 대시보드를 만들어 드립니다.",
@@ -75,13 +71,13 @@ export default function ServicesPage() {
         </div>
 
         <div className="space-y-px bg-rangers-blue-deep/8">
-          {services.map((s) => (
+          {services.map((s, idx) => (
             <div
-              key={s.num}
+              key={s.title}
               className="bg-rangers-ink p-10 lg:p-16 grid grid-cols-12 gap-8"
             >
               <div className="col-span-12 lg:col-span-3">
-                <div className="font-mono text-rangers-red text-sm mb-4">/{s.num}</div>
+                <div className="font-mono text-rangers-red text-sm mb-4">/{String(idx + 1).padStart(2, "0")}</div>
                 <h2 className="font-display text-4xl tracking-tight">{s.title}</h2>
                 <div className="text-rangers-bone/50 text-sm mt-2">{s.titleKo}</div>
               </div>

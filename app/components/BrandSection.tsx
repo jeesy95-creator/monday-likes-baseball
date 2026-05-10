@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function BrandSection() {
   return (
     <section className="relative py-32 border-t border-rangers-blue-deep/10">
@@ -9,7 +7,7 @@ export default function BrandSection() {
           <div className="col-span-12 lg:col-span-2">
             <div className="sticky top-32">
               <div className="font-mono text-xs text-rangers-red mb-2">§ 01</div>
-              <div className="label-mono text-rangers-bone/40">Brand</div>
+              <div className="label-mono text-rangers-bone/40">Story</div>
             </div>
           </div>
 
@@ -26,27 +24,26 @@ export default function BrandSection() {
               해석합니다.
             </h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-rangers-bone leading-relaxed text-lg">
-              <p>
-                Monday Likes Baseball은 데이터 분석 부트캠프 최종 프로젝트에서 출발한,
-                야구를 좋아하는 사람들의 작은 분석 그룹입니다. 한 경기 안에 흩어진 수백
-                개의 신호 — 투구 속도, 타구 각도, 골반 회전 시점 — 을 모아 의미 있는
-                이야기로 엮어내는 일을 합니다.
-              </p>
-              <p>
-                기록 위의 숫자와 그라운드 위의 움직임을 같은 좌표계에 올려놓고 봅니다.
-                통계와 해부학이 만나는 자리에서, 야구는 늘 다르게 읽힙니다.
-              </p>
-            </div>
+            <p className="text-[#1B2435] text-xl lg:text-2xl leading-relaxed font-display font-medium mb-12">
+              월요일은 보통 야구가 쉬는 날입니다. 그 비어 있는 하루,
+              지난 주의 경기를 다시 펴 보고 다음 주의 경기를 예측해 보는 시간.
+              그 시간이 우리를 만들었습니다.
+            </p>
 
-            <div className="mt-12">
-              <Link
-                href="/story"
-                className="inline-flex items-center gap-3 group"
-              >
-                <span className="label-mono text-rangers-red">Read our story</span>
-                <span className="w-12 h-px bg-rangers-red group-hover:w-20 transition-all duration-500" />
-              </Link>
+            <div className="space-y-6 text-rangers-bone leading-relaxed text-lg">
+              <p>
+                Monday Likes Baseball은 데이터 분석 부트캠프 최종 프로젝트에서 출발한
+                분석 그룹입니다. 야구를 좋아하는 사람들이 한자리에 모여, &lsquo;우리가
+                좋아하는 이 경기를 데이터로도 풀어보자&rsquo;는 단순한 호기심에서
+                시작됐죠. 그 호기심이 한 시즌의 결과부터 한 동작의 디테일까지 — 야구를
+                여러 각도로 들여다보는 작업으로 이어졌습니다.
+              </p>
+              <p>
+                우리는 야구라는 게임을 가능한 한 여러 각도에서 봅니다. 한 시즌의 성적표
+                뒤에는 한 경기가 있고, 그 안에는 한 타석, 한 투구, 그리고 한 동작이
+                있습니다. 위에서 아래로 한 겹씩 풀어내는 — 그게 우리가 야구를 읽는
+                방식입니다.
+              </p>
             </div>
           </div>
 
