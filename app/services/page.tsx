@@ -64,20 +64,19 @@ export default function ServicesPage() {
               <span className="text-rangers-red">build.</span>
             </h1>
             <p className="text-rangers-bone max-w-2xl text-lg leading-relaxed">
-              구단·코칭 스태프·미디어·팬 — 누구의 질문이든, 야구 데이터로 답할 수 있는
+              구단·코칭 스태프·미디어·팬 누구의 질문이든, 야구 데이터로 답할 수 있는
               네 가지 방식이 있습니다. 모든 프로젝트는 이 네 가지의 조합으로 진행됩니다.
             </p>
           </div>
         </div>
 
         <div className="space-y-px bg-rangers-blue-deep/8">
-          {services.map((s, idx) => (
+          {services.map((s) => (
             <div
               key={s.title}
               className="bg-rangers-ink p-10 lg:p-16 grid grid-cols-12 gap-8"
             >
               <div className="col-span-12 lg:col-span-3">
-                <div className="font-mono text-rangers-red text-sm mb-4">/{String(idx + 1).padStart(2, "0")}</div>
                 <h2 className="font-display text-4xl tracking-tight">{s.title}</h2>
                 <div className="text-rangers-bone/50 text-sm mt-2">{s.titleKo}</div>
               </div>
